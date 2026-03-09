@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Tombol Utama (Solid) */
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition;
+  }
+
+  /* Tombol Sekunder (Outline) */
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition;
+  }
+}
